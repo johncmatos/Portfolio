@@ -42,6 +42,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: black;
   }
 
   .navbar-links ul{
@@ -150,7 +151,7 @@ button{
 }
 
 button.active{
-    background: #4070f4;
+    background:rgb(83, 204, 255);
     color: #fff;
 }
 
@@ -161,7 +162,7 @@ button.active{
     flex-wrap: wrap;
 }
 
-.card{
+.rwcard{
     flex-grow: 1;
     flex-basis: 300px;
     background-color: #fff;
@@ -170,28 +171,30 @@ button.active{
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-.card.hide{
+.rwcard.hide{
     display: none;
 }
 
-.card img{
+.rwcard img{
     width:100%;
     height: 210px;
     object-fit: cover;
     border-radius: 8px 8px 0 0;
 }
 
-.card_body{
+.rwcard_body{
     padding: 15px 20px 20px;
 }
 
-.card_title{
+.rwcard_title{
     font-size: 20px;
     font-weight: 500;
     color: #333;
+    margin: 0;
 }
 
-.card_text{
+.rwcard_text{
     font-size: 18px;
     color: #333;
+    margin: 0;
 }

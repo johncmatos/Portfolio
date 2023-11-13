@@ -1,7 +1,7 @@
 // select all buttons and cards
 
 const filterButtons = document.querySelectorAll(".filter_buttons button");
-const filterableCards = document.querySelectorAll(".filterable_cards .card");
+const filterableCards = document.querySelectorAll(".filterable_cards .rwcard");
 
 // Define the filterCards function
 const filterCards = e => {

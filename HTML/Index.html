@@ -4,9 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home - Portfolio</title>
-    <link rel="stylesheet" href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\CSS\CSS.css">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\CSS\Custom-SCSS.min.css" rel="stylesheet" >
     <script src="https://kit.fontawesome.com/bcacf21420.js" crossorigin="anonymous"></script>
     <script src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\JS\JS.js"defer></script>
   </head>
@@ -41,7 +41,7 @@
         <div class="col p-4">
           <!--Profile picture-->
           <div> 
-            <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\IMG_20230926_151121_024 (1).jpg" class="rounded-circle img-thumbnail my-4" style="max-width: 320px; max-height: 320px; min-height: 320px; min-height: 320px;" alt="">
+            <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\IMG_20230926_151121_024 (1).jpg" class="rounded-circle img-thumbnail my-4"  alt="">
           </div>
           <!--short description-->
           <div style="font-size: 3rem; font-weight: bold;">I'm John Matos, a 
@@ -135,48 +135,36 @@
         <div class="container">
           <!--filter buttons-->
           <div class="filter_buttons">
-              <button class="active" data-name="all">Show all</button>
-              <button data-name="phones">Front-end</button>
-              <button data-name="sneakers">Javascript</button>
+              <button class="active btn btn-outline-info btn-lg " data-name="all">Show all</button>
+              <button class="btn btn-outline-info btn-lg" data-name="phones">Front-end</button>
+            <!-- <button data-name="sneakers">Javascript</button> -->
           </div>
           <!--Image Cards-->
           <div class="filterable_cards">
-              <div class="card" data-name="phones">
-                  <img src="C:\Users\johnc\Desktop\Git_Repos\Filterable-Image-Gallery\Images\smartwatch.jpg" alt="smartwatch" />
-                  <div class="card_body">
-                      <h6 class="card title">Electronics</h6>
-                      <p class="card_text">Apple Watch $170</p>
-                  </div>
-              </div>
-              <div class="card" data-name="phones">
-                  <img src="C:\Users\johnc\Desktop\Git_Repos\Filterable-Image-Gallery\Images\headphone2.jpg" alt="headphone2" />
-                  <div class="card_body">
-                      <h6 class="card title">Electronics</h6>
-                      <p class="card_text">JLab Headphones $120</p>
-                  </div>
-              </div>
-              <div class="card" data-name="sneakers">
-                  <img src="C:\Users\johnc\Desktop\Git_Repos\Filterable-Image-Gallery\Images\shoes1.jpg" alt="shoes1" />
-                  <div class="card_body">
-                      <h6 class="card title">Sneakers</h6>
-                      <p class="card_text">Nike $160</p>
-                  </div>
-              </div>
-              <div class="card" data-name="sneakers">
-                  <img src="C:\Users\johnc\Desktop\Git_Repos\Filterable-Image-Gallery\Images\shoes2.jpg" alt="shoes2" />
-                  <div class="card_body">
-                      <h6 class="card title">Sneakers</h6>
-                      <p class="card_text">Nike $120</p>
-                  </div>
-              </div>
-              <div class="card" data-name="sneakers">
-                  <img src="C:\Users\johnc\Desktop\Git_Repos\Filterable-Image-Gallery\Images\shoes3.jpg" alt="shoes3" />
-                  <div class="card_body">
-                      <h6 class="card title">Sneakers</h6>
-                      <p class="card_text">Asics $100</p>
-                  </div>
-              </div>
+            <div class="row g-3">
+                     <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" data-name="phones">
+              <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\Screenshot 2023-11-04 054456.png" class="card-img-top" alt="...">
+              
+            </div>
           </div>
+
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card" data-name="phones">
+              <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\Screenshot 2023-11-04 054428.png" class="card-img-top" alt="...">
+              
+            </div>
+          </div>
+              
+              <div class="rwcard" data-name="sneakers">
+                  <img src="C:\Users\johnc\Desktop\Git_Repos\Filterable-Image-Gallery\Images\shoes1.jpg" alt="shoes1" />
+                  <div class="rwcard_body">
+                      <h6 class="rwcard_title">Sneakers</h6>
+                      <p class="rwcard_text">Nike $160</p>
+                  </div>
+                
+          </div>
+            </div>
       </div>
 
         <div style="margin: 1.5rem;" >
