@@ -3,6 +3,27 @@ body{
     padding: 0;
   }
 
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+}
+
   hr {
     display: block;
     height: 1px;
@@ -68,9 +89,7 @@ body{
   color:rgb(83, 204, 255);
 }
 
-  .brand-title:hover{
-    
-  }
+
   .navbar-links ul{
     margin: 0;
     padding: 0;

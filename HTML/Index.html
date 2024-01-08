@@ -1,9 +1,12 @@
 <!doctype html>
+
+<!--Create paralax scroll animation, fix margin padding etc./Figure out an animation to make the information more readable/ MAKE DIFFERENT SECTIONS STICK OUT LIKE HOW A MODERN PAGE WOULD DO IT-->
+
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home - Portfolio</title>
+    <title>Home - Matos</title>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <link href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\CSS\Custom-SCSS.min.css" rel="stylesheet" >
@@ -16,152 +19,67 @@
 
   <body class="bg-black text-light">
 
+    <div class="fixed">
+      <!--Container for navbar-->
 
-    <!--Container for navbar-->
-    <nav class="navbar py-0">
-      <a class="brand-title" href="C:\Users\johnc\Desktop\Git_Repos\Mulsane-Clothing\HTML\Home.html">Matos</a>
-      <a href="#" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </a>
-      <div class="navbar-links">
-        <ul>
-          <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\About.html">About</a></li>
-          <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html">Portfolio</a></li>
-          <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </nav>
+     <!--Container for Content: Profile picture, short description and a button.-->
+      <div class="container-fluid justify-content-start text-center">
+     
 
-
-
-
-    <!--Container for Content: Profile picture, short description and a button.-->
-    <div class="container-fluid text-center">
-
-
-
-        <!--Profile picture-->
-      
-
-
-    <!--Container for Content: Profile picture, short description and a button.-->
-      <div class="row justify-content-center">
-          <!--short description-->
-      
-          <div class="col-sm-auto pg">
-            <p>Hello, my name is</p>
-          </div>
-      </div>
-
-      <div class="row justify-content-center">
+        <div class="row justify-content-center">
           <div class="col-sm-auto" style="font-size: 3rem; font-weight: bold;">John Matos 
-
           </div> 
-      </div>
+        </div>
 
-      <div class="row justify-content-center">
+        <div class="row justify-content-center">
           <div class="col-sm-auto pg">
             <p style="color: rgb(83, 204, 255);">Full Stack Website Developer</p>
           </div>
-
-      </div>  
+        </div>  
       
-      <div class="row justify-content-center">
+        <div class="row justify-content-center">
           <!--short description-->
           <div class="col-sm-auto pg">
-            <p>Are you searching for a web developer who is technically proficient and time effective? Click the link below, let's bring your digital dreams to life!</p>
-            <button type="button" class="btn btn-outline-info btn-lg" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;">Contact me</button>
-
+            <p>I build simple captivating websites for busy business owners.</p>
           </div>
 
-      </div>
+          <div class="row justify-content-center">
 
-      <div class="row justify-content-center">
-        <div class="col-sm-auto">
+          <nav class="navbar py-0">
+            <div class="navbar-links">
+              <ul>
+                <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html">Portfolio</a></li>
+                <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </nav>
+          </div>
 
-      
-      
-
-      
-    </div>
-
-    <!--Container for Content: Header, description, cards and button.-->
-    <div class="container-fluid text-center py-5">
-
-      <!--Header-->
-      <div class="col">
-
-        <div>
-          <h2 class="blu">Expertise</h2>
-          
+          <ul class="nav col-md-4 justify-content-center list-unstyled ">
+            <li class="ms-3">
+              <a href="https://github.com/johncmatos"><i class="fa-brands fa-github text-info" href="#"></i></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.instagram.com/john_software_developer/"><i class="fa-brands fa-instagram text-info" href="#"></i></a>
+            </li>
+            <li class="ms-3">
+              <a href="https://www.linkedin.com/in/john-matos-77140718b/"><i class="fa-brands fa-linkedin text-info"></i></a></div>
+            </li>
+          </ul>
         </div>
-
       </div>
-
-      <!--Container for cards-->
-      <div class="container">
-        <div class="row g-3">
-
-          <!--1st card-->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img src="C:\Users\johnc\Pictures\Saved Pictures\240_F_409322210_0Kt6RCsHgnb2P7eWmhXPhuPdyLXC73jx.jpg" class="card-img-top" alt="...">
-              <div class="card-body bg-black text-white">
-                <h5 class="card-text">Web Design</h5>
-                <p class="card-text">The process of creating and arranging visual elements and content on a website to enhance its functionality, aesthetics, and user experience.</p>
-              </div>
-            </div>
-          </div>
-
-          <!--2nd card-->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card">
-              <img src="C:\Users\johnc\Pictures\Saved Pictures\240_F_318104934_zL1pm1vAZTzZDjbTtSMZkFmKROg9sZGh.jpg"class="card-img-top" alt="...">
-              <div class="card-body bg-black text-white">
-                <h5 class="card-text">UI/UX Design</h5>
-                <p class="card-text">Involves crafting the user interface and user experience of digital products to ensure they are intuitive, visually appealing, and user-friendly.</p>
-              </div>
-            </div>
-          </div>
-
-          <!--3rd card-->
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card" >
-              <img src="C:\Users\johnc\Pictures\Saved Pictures\240_F_263916438_3G2E3eBqFqSUNGq2u3E1TzKb8BncKBmE.jpg"class="card-img-top" alt="...">
-              <div class="card-body bg-black text-white">
-                <h5 class="card-text">Web Development</h5>
-                <p class="card-text">The building and maintenance of websites and web applications by coding and programming software to ensure their functionality on the internet.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-      <!--button-->
-      <div style="margin: 1.5rem;" >
-
-        <button type="button" class="btn btn-outline-info btn-lg" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;">Certificates</button>
-      </div>
-
     </div>
+  
 
    
 
 
     <div class="container-fluid text-center py-5">
+      <div class="row">
       <div class="col">
-        <div>
-          <h2 class="blu">Certificates</h2>
-        </div>
-        <div>
-          <h2 class="blu">Recent Work</h2>
-          
-
-        </div>
+          <h2 class="blu">Portfolio</h2>
+      </div>
+      </div>
 
 
 
@@ -188,64 +106,29 @@
               <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\Screenshot 2023-11-04 054428.png" class="card-img-top" alt="...">
               
             </div>
-          </div>
-              
-              
-                
+          </div>    
           </div>
             </div>
       </div>
+      </div>
+    </div>
+    </div>
 
-        <div style="margin: 1.5rem;" >
-          <button type="button" class="btn btn-outline-info btn-lg" style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: 2rem;">Full Portfolio</button>
+    <div class="container-fluid text-center">
+      <div class="row justify-content-center">
+        <div class="col-sm-auto pg">
+          <h2 class="blu">Contact</h2>
+
+
         </div>
       </div>
     </div>
-  
-      
 
     <div class="container-fluid text-center"> 
-      <h2 class="">Address</h2>
-      <p>Salt Lake City, UT 84116
+      <p>Salt Lake City UT, 
         United States</p>
-      <h2 class="" >Phone</h2>
-      <p>(385)332-7334
-      </p>
+      <p>Johncmatos3@gmail.com</p>
     </div>
-
-  
-
-  
-      
-  </div>
-
-
- <!--Social Media-->
-   <!-- <div class="container-fluid text-center py-5">
-
-      <h2>Like what you see? 
-      <div class="text-info">
-      Follow me
-      </div>
-      </h2>
-
-      <p class="pg">
-      Social Media
-      </p>
-
-      <div>
-        <a href="https://github.com/johncmatos"><i class="fa-brands fa-github text-info" href="#"></i></a>
-      </div>
-
-      <div>
-        <a href="https://www.instagram.com/john_software_developer/"><i class="fa-brands fa-instagram text-info" href="#"></i></a>
-      </div>
-
-      <div>
-        <a href="https://www.linkedin.com/in/john-matos-77140718b/"><i class="fa-brands fa-linkedin text-info"></i></a></div>
-      </div>
-
-    </div>-->
 
 
     <div class="container">
