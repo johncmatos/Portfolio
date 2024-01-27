@@ -16,7 +16,7 @@
 
   <body class="bg-black text-light">
     <!--Container for Content: Profile picture, short description and a button.-->
-      <div class="container-fluid split left" style="margin: 4vh;">
+      <div class="container-fluid split left">
 
         <div class="row py-2">
           <div class="col-sm-auto fs-1">
@@ -37,38 +37,39 @@
           </div>
 
           <div class="row py-2">
+            <nav class="navbar">
+              <div class="navbar-links">
+                <ul>
+                  <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="fs-7">About</a></li>
+                </ul>
+                <ul>
+                  <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="fs-7">Portfolio</a></li>
+                </ul>
+                <ul>
+                  <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="fs-7">Certificates</a></li>
+                </ul>
+              </div>
 
-          <nav class="navbar">
-            <div class="navbar-links">
-              <ul>
-                <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="fs-7">About</a></li>
-              </ul>
-              <ul>
-                <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="fs-7">Portfolio</a></li>
-              </ul>
-              <ul>
-                <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="fs-7">Certificates</a></li>
-              </ul>
+            </nav>
 
-              <ul class="d-flex justify-content-start">
-                <li><a href="https://github.com/johncmatos" target="_blank" class="contact-icon">
-                  <i class="fa fa-github text-light" aria-hidden="true"></i></a>
-                </li>
+            <div class="row py-2">
+                <ul class="d-flex justify-content-start">
+
+                  <li><a href="https://github.com/johncmatos" target="_blank">
+                    <i class="fa fa-github text-light mx-2" aria-hidden="true"></i></a>
+                  </li>
               
+                  <li><a href="https://www.instagram.com/john_software_developer/" target="_blank">
+                    <i class="fa fa-instagram text-light mx-2" aria-hidden="true"></i></a>
+                  </li>
 
-              
-                <li><a href="https://www.instagram.com/john_software_developer/" target="_blank" class="contact-icon">
-                  <i class="fa fa-instagram text-light" aria-hidden="true"></i></a>
-                </li>
+                  <li><a href="https://www.linkedin.com/in/john-matos-77140718b/" target="_blank">
+                    <i class="fa fa-linkedin text-light mx-2" aria-hidden="true"></i></a>
+                  </li>  
 
-                <li><a href="https://www.linkedin.com/in/john-matos-77140718b/" target="_blank" class="contact-icon">
-                  <i class="fa fa-linkedin text-light" aria-hidden="true"></i></a>
-                </li>  
-
-              </ul>
-
+                </ul>
             </div>
-          </nav>
+
           </div>
 
           
@@ -76,15 +77,15 @@
         </div>
       </div>
 
-      <div class="container-fluid split right "><!--might have to instert rows and columns to make it consistent with the left side of the page.-->
+      <div class="container-fluid split right"><!--might have to instert rows and columns to make it consistent with the left side of the page.-->
         <div class="row">
           <div class="col-ms-auto py-2">
-            <h2 class="mt-5" >About</h2>
+            <h2 class="py-2" >About</h2>
           </div>
 
         
           <div class="col-ms-auto py-2">
-            <p>Back in 2020, I've decided I wanted to become a Software Developer. This felt like a daunting task for me considering computers in general frustrated me growing up. However, after countless nights studying I have received several <strong class="text-info">Certificates</strong> and created many <strong class="text-info">Projects</strong>. It took me a couple of years of studying on my own, but in 2023 everything I learned over the years had finally paid off.</p>
+            <p>Back in 2020, I've decided I wanted to become a Software Developer. This felt like a daunting task for me considering computers in general frustrated me growing up. However, after countless nights studying I have received several <a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html"><strong class="text-info">Certificates</strong></a> and created many <a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html"><strong class="text-info">Projects</strong></a>. It took me a couple of years of studying on my own, but in 2023 everything I learned over the years had finally paid off.</p>
           </div>
 
 
@@ -92,15 +93,11 @@
             <p>Today in 2024, I'm focused on staying up to date with new techologies and trends in Web Development. A great student never stops learning and as a famous scientist has once said, "Education is not the learning of facts, but training the mind to think." - Albert Einstein.</p>
           </div>
         
-
-          <div class="col-ms-auto py-2">
-            <p>Today in 2024, I'm focused on staying up to date with new techologies and trends in Web Development. A great student never stops learning and as a famous scientist has once said, "Education is not the learning of facts, but training the mind to think." - Albert Einstein.</p>
-          </div>
         </div>
 
       
       <!--Include source code, date created, significant projects, tech stack used, make it link to site-->
-     <h2 class="mt-5">Portfolio</h2>
+     <h2 class="py-2">Portfolio</h2>
       <div class="card mb-3 border-0" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 bg-black"> <!---->
@@ -108,9 +105,12 @@
           </div>
           <div class="col-md-8">
             <div class="card-body bg-black text-light"> <!---->
-              <h5 class="card-title">Mulsane Clothing Inc. <i class="fa-solid fa-sort-up"></i></h5>
+              <div class="navbar-links">
+                <ul>
+                  <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class=""><h5>Mulsane Clothing Inc. <i class="fa-solid fa-sort-up"></i></h5></a></li>
+                </ul>
+              </div> 
               <p class="card-text">An ecommerce website for Mulsane Clothing Co. A clothing brand based in Salt Lake City, Utah.</p>
-              <button type="button" class="btn btn-outline-info text-info">HTML</button> <button type="button" class="btn btn-outline-info text-info">Javascript</button> <button type="button" class="btn btn-outline-info text-info">CSS</button>
             </div>
           </div>
         </div>
@@ -122,19 +122,35 @@
             <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\Screenshot 2023-11-04 054428.png" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-8">
+
             <div class="card-body bg-black text-light">
-              <h5 class="card-title">Keloke Dominican Restaurant <i class="fa-solid fa-sort-up"></i></h5>
+
+              <div class="navbar-links">
+                <ul>
+                  <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class=""><h5>Keloke Restaurant <i class="fa-solid fa-sort-up"></i></h5></a></li>
+                </ul>
+              </div> 
               <p class="card-text">Website for a Carribean Restaurant located in Utah. This site includes the restaurant's location, menu, hours etc.</p>
-              <button type="button" class="btn btn-outline-info text-info">HTML</button> <button type="button" class="btn btn-outline-info text-info">CSS</button>
+
+
             </div>
+
           </div>
         </div>
       </div>
 
-      <p class="mb-5">View Full Portfolio <i class="fa-solid fa-arrow-right"></i></p> <!--Link button to pdf file of resume-->
+
+        <div class="navbar-links">
+          <ul>
+            <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="mb-5">View Full Portfolio -></a></li>
+          </ul>
+        </div>
 
 
-      <h2 class="mt-5" >Certificates</h2><!--Add year obtained the certificate, the institution and link to pdf file. hover over image to zoom in -->
+
+
+
+      <h2 class="py-2" >Certificates</h2><!--Add year obtained the certificate, the institution and link to pdf file. hover over image to zoom in -->
       <div class="card mb-3 border-0" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-4 bg-black">
@@ -142,30 +158,26 @@
           </div>
           <div class="col-md-8">
             <div class="card-body bg-black text-light">
-              <h5 class="card-title">Technical Support Fundamentals <i class="fa-solid fa-sort-up"></i></h5> <!--Coursera/Google, 2023-->
+              <div class="navbar-links">
+                <ul>
+                  <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class=""><h5>Technical Support Fundamentals <i class="fa-solid fa-sort-up"></i></h5></a></li>
+                </ul>
+              </div>               
               <p class="card-text">Authorized by Google and offered through Coursera on February, 2023.</p>
-              <button type="button" class="btn btn-outline-info text-info">Binary</button> <button type="button" class="btn btn-outline-info text-info">Troubleshooting</button> <button type="button" class="btn btn-outline-info text-info">Customer Service</button>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="card mb-3 border-0" style="max-width: 540px;">
-        <div class="row g-0">
-          <div class="col-md-4 bg-black">
-            <img src="C:\Users\johnc\Documents\BreeZip\Technical-Support-Fundamentals-Google-Cert conv\Technical-Support-Fundamentals-Google-Cert conv 1.png" class="img-fluid rounded-start" alt="...">
-          </div>
-          <div class="col-md-8">
-            <div class="card-body bg-black text-light">
-              <h5 class="card-title">Technical Support Fundamentals <i class="fa-solid fa-sort-up"></i></h5> <!--Coursera/Google, 2023-->
-              <p class="card-text">Authorized by Google and offered through Coursera on February, 2023.</p>
-              <button type="button" class="btn btn-outline-info text-info">Binary</button> <button type="button" class="btn btn-outline-info text-info">Troubleshooting</button> <button type="button" class="btn btn-outline-info text-info">Customer Service</button>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
-      <p class="mb-5">View Full List <i class="fa-solid fa-arrow-right"></i></p> <!--Link button to pdf file of resume-->
+
+        <div class="navbar-links">
+          <ul>
+            <li><a href="C:\Users\johnc\Desktop\Git_Repos\Portfolio\HTML\Portfolio.html" class="mb-5">View Full List -></a></li>
+          </ul>
+        </div>
+
         <span class="mb-3 mb-md-0 text-body-white">
           @2023 Matos, Inc.
         </span>

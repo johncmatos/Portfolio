@@ -103,6 +103,14 @@ body{
     color:rgb(83, 204, 255);
 
   }
+
+
+ .cardbg  :hover{
+    background-color:rgb(83, 204, 255);
+
+  }
+
+
   
   .toggle-button{
     position: absolute;
