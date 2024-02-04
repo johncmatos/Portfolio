@@ -379,3 +379,26 @@ button.active{
     width: 99%;
   }
 }
+
+
+h2, h3, h4 {
+  font-family: 'Poppins', sans-serif;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.card h3 {
+  text-transform: uppercase;
+  color: rgb(177, 177, 177);
+  font-size: .8rem;
+}
+
+.card p {
+  line-height: 1.4rem;
+}
