@@ -1,4 +1,4 @@
-<!doctype html> <!--list of things to do: margin/padding/sizing/responsive/fonts/responsiveimages/mouseanimationmakingthebackgroundbrighter/emulatethestyleofthereferencesite/add"projects,About,Experiencheaderandcreate80%opacityforatransparenteffect"-->
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -14,9 +14,15 @@
 
   </head>
 
-  <body class="bg-black text-light"> <!--when screen is 425px <= make "split left on the top row and the split right below it, to help with readability on smaller screens such as phones" -->
-    <!--Container for Content: Profile picture, short description and a button.-->
-      <div class="container-fluid split left "> <!--add padding or margin to center the content, make text bigger to fill screen-->
+  <body class="bg-black text-light">
+      <div class="container-fluid split left justify-content-center"> 
+
+        <!--image is too big after a certain screen size-->
+        <div class="row py-2">
+          <div class="col-sm-auto fs-1">
+            <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\IMG_20230926_151121_024 (1).jpg" class="rounded-circle img-fluid"  alt="">
+          </div> 
+        </div>
 
         <div class="row py-2">
           <div class="col-sm-auto fs-1">
@@ -31,7 +37,6 @@
         </div>  
       
         <div class="row py-2">
-          <!--short description-->
           <div class="col-sm-auto fs-7">
             <p>I build simple captivating websites for busy business owners.</p>
           </div>
@@ -49,7 +54,7 @@
 
             </nav>
 
-            <div class="row py-2"> <!--make icons bigger to draw more attention-->
+            <div class="row py-2"> 
                 <ul class="d-flex justify-content-start">
 
                   <li><a href="https://github.com/johncmatos" target="_blank">
@@ -78,7 +83,7 @@
 
         <div class="row">
           <div class="col-ms-auto py-2">
-            <h2 class="py-2" >About</h2>
+            <h2 class="py-4" >About</h2>
           </div>
 
         
@@ -94,11 +99,11 @@
         </div>
 
       
-      <!--Include source code, date created, significant projects, tech stack used, make it link to site-->
-     <h2 class="py-2">Portfolio</h2>
+      <!--link disapears when screen is small, fix it-->
+     <h2 class="py-4">Portfolio</h2>
       <div class="card mb-3 border-0" style="max-width: 540px;">
         <div class="row g-0">
-          <div class="col-md-3 bg-black">  <!--make image corners round-->
+          <div class="col-md-3 bg-black"> 
             <img src="C:\Users\johnc\Desktop\Git_Repos\Portfolio\Images\Screenshot 2023-11-04 054456.png" class="img-fluid rounded-start" alt="...">
           </div>
           <div class="col-md-9">
@@ -128,14 +133,11 @@
                 </ul>
               </div> 
               <p class="card-text">Website for a Carribean Restaurant located in Utah. This site includes the restaurant's location, menu, hours etc.</p>
-
-
             </div>
 
           </div>
         </div>
       </div>
-
 
         <div class="navbar-links">
           <ul>
@@ -143,11 +145,7 @@
           </ul>
         </div>
 
-
-
-
-
-      <h2 class="py-2" >Certificates</h2><!--Add year obtained the certificate, the institution and link to pdf file. hover over image to zoom in -->
+      <h2 class="py-4" >Certificates</h2><!--Add year obtained the certificate, the institution and link to pdf file. hover over image to zoom in -->
       <div class="card mb-3 border-0" style="max-width: 540px;">
         <div class="row g-0">
           <div class="col-md-3 bg-black">
@@ -165,10 +163,7 @@
           </div>
         </div>
       </div>
-
       
-
-
         <div class="navbar-links">
           <ul>
             <li><a target="_blank" rel="noopener noreferrer" href="..." class="mb-5">View Full List -></a></li> <!--fill in link-->
