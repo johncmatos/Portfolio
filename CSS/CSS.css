@@ -6,7 +6,9 @@ body{
     background: black;
   }
 
-/* Split the screen in half */
+
+  @media screen and (min-width:1024px) {
+  /* Split the screen in half */
 .split {
   height: 100%;
   width: 50%;
@@ -16,16 +18,17 @@ body{
   overflow-x: hidden;
   padding-top: 20px;
 }
-
 /* Control the left side */
 .left {
   left: 0;
 }
-
 /* Control the right side */
 .right {
   right: 0;
 }
+  }
+
+
 
   li{
     list-style-type: none;
@@ -69,6 +72,13 @@ body{
     color:rgb(83, 204, 255);
 
   }
+
+  .fa-github:hover{
+    
+    color:rgb(83, 204, 255);
+
+  }
+
 
   @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
